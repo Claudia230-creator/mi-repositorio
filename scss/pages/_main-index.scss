@@ -1,0 +1,360 @@
+/* main- index */
+
+.main{
+    margin-top: 0;
+
+div h1{
+    display: grid;
+    place-items: center;
+    color: $color-ppal;
+    font-family: cursive;
+    font-size: $tipo1;
+    margin-bottom: 30px;}
+
+    div p {
+    width: 100%;
+    margin: auto;}
+
+    .descripcion{
+    display: grid;
+    place-items: center;
+    color: $color;
+    font-family: $tipografia;
+    font-size: $tipo3;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 20px;}
+
+
+    
+    .slide{
+        display: grid;
+        place-items: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 0;
+        z-index: -1;
+    }
+      
+    
+    
+  
+    .slide img{
+    height:70vh ;
+} 
+
+
+    .lugar{
+    display: grid;
+    place-items: center;
+    color: $color;
+    font-family: $tipografia;
+    font-size: $tipo3;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 20px;}
+
+
+
+iframe{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}}
+
+/* Nosotros.html */
+.container4{
+    margin-top: 150px;
+    margin-right: 0;
+     z-index: -1;
+    border:5px transparent;
+    
+    .row {
+        border:5px transparent;
+    }
+    
+
+    
+    
+    .parrafo-moda{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: $color;
+        font-family: $tipografia;
+        font-size: $tipo3;
+    padding-left: 10%;
+    padding-right: 10%;
+        padding-top: 20%;
+        padding-bottom: 30px;}
+       
+
+    .grupo-moda{
+        padding-left: 10%x;
+        padding-right: 10%;
+        z-index: -1;
+
+        .position-relative{
+            z-index: -1;
+        }
+     
+
+    .tela{
+        width: 300px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right:auto;
+       
+        z-index: -1;
+         }
+    
+    
+    
+    .moda{
+        width: 300px;
+        height: 250px;
+        margin-top: -190px;
+        margin-right: 200px;
+       
+        z-index: -1;
+     }}
+
+        .parrafo-cuadros{
+           
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            color: $color;
+            font-family: $tipografia;
+            font-size: $tipo3;
+            padding-left: 10px;
+            padding-right: 10%;
+            padding-top: 20%;
+            padding-bottom: 30px;
+            margin-right: 20px;
+    
+        }
+
+        .grupo-cuadros{
+            @extend.grupo-moda;
+            padding-bottom: 70px;
+            padding-left: 10%;
+
+    .verde{
+        @extend.tela;
+
+    }
+        
+    
+    
+    .fotociudad{
+        @extend.moda;
+       }}
+     
+
+    
+.parrafo-hogar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: $color;
+    font-family: $tipografia;
+    font-size: $tipo3;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20%;
+    padding-bottom: 30px;};
+}
+
+    .grupo-cuadros{
+        @extend.grupo-moda;
+
+    .beige{
+       @extend.tela;}
+    
+    
+       .mantel{
+            @extend.moda;
+        }}
+        
+/* Prodcutos1.html-Personal */
+main{
+    margin-bottom: 50px;
+    z-index: -1;
+
+    
+
+    .servicios{
+        @extend.descripcion
+    }
+
+  
+    
+
+.carousel-estilos{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    z-index: -1;
+
+   
+
+    
+    
+}
+
+.carousel-colotimetria{
+ margin-bottom: 50px;
+ z-index: -1;
+}
+.carousel-tipos-cuerpo{
+  margin-bottom: 50px;
+  z-index: -1;
+}
+
+}
+
+
+/* Prodcutos2 html Hogar */
+
+/* Hogar Prodcuto2.html */
+main{
+
+    margin-top: 120px;
+    width: 100%;
+    z-index: -1;
+
+
+    .productos{ display: grid;
+        place-items: center;
+        padding-right: 30%;
+        color:$color;
+        font-family:$tipografia;
+        font-size: $tipo2;
+        margin-top: 120px;
+        padding-bottom: 50px;
+        margin: 0;
+        border: transparent;
+
+    }
+    .container{
+        margin-bottom: 30px;
+        border: transparent;
+    .col-lg-6{
+        padding: 0;
+        z-index: -1;
+    }
+    
+    
+    .row{
+        margin-bottom: 30px;
+        border: transparent;
+    } 
+    
+.carousel-productos{
+    display: grid;
+    margin: auto;
+    padding: o;
+    
+
+
+
+.carousel-inner img{
+height:40vh ;
+width: 100vh;
+}}
+
+
+.venta{
+    color:$color;
+    font-family: $tipografia;
+    font-size: $tipo4;
+    
+
+}}}
+    
+    /* Galeria.html */
+
+    /* GALERIA*/
+
+/* Galeria Bootstrap */
+
+
+
+.presentacion{ 
+     display: grid;
+    place-items: center;
+    color: $color-ppal;
+    font-family: cursive;
+    font-size: $tipo2;
+    margin-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 30px;}
+
+
+p{  margin-left: auto;
+    text-align: justify;
+    color: $color;
+    font-family: $tipografia;
+    font-size: $tipo3;
+    
+    padding-left: 40%}
+
+
+.container5{
+    border:transparent;
+    .row{
+        border: transparent;}}
+    
+        #galeria .col-lg-4{
+            margin: 0 !important;
+            padding: 25px;}
+
+        #galeria img{
+            width: 100%;
+            height: 400px;
+
+            &:hover{
+                border: 10px solid #f7f7f7; 
+        }}
+
+
+       
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+           
+
+
+
+
+
+
+
+
+    
